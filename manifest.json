@@ -3,12 +3,6 @@
   "name": "Github Jira Ticket Link",
   "version": "1.0.4",
 
-  "applications": {
-    "gecko": {
-      "id": "addon@example.com"
-    }
-  },
-
   "description": "Transforms Jira tags in PR titles into links to jira tickets",
 
   "content_scripts": [
