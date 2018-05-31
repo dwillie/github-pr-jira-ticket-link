@@ -1,10 +1,10 @@
 {
   "manifest_version": 2,
   "name": "Github Jira Ticket Link",
-  "version": "1.0.4",
+  "version": "1.1.0",
 
   "description": "Transforms Jira tags in PR titles into links to jira tickets",
-
+  
   "content_scripts": [
     {
       "matches": ["*://github.com/*/*/pull/*", "*://github.com/*/*/pulls"],
