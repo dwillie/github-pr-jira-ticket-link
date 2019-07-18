@@ -7,7 +7,7 @@
   
   "content_scripts": [
     {
-      "matches": ["*://github.com/*/*/pull/*", "*://github.com/*/*/pulls"],
+      "matches": ["*://github.com/*/*/pull/*", "*://github.com/*/*/pulls*"],
       "js": ["background.js"]
     }
   ],
